@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Задача 1
+        //Задача 1
         System.out.println("Задача 1");
         double savings = 15000;
         double percent = 0.07;
@@ -10,7 +10,7 @@ public class Main {
             sumWithPercent = (sumWithPercent + savings) * (1 + percent);
             System.out.println("Месяц " + i + ", сумма накоплений равна " + sumWithPercent + " рублей");
         }
-        // Задача 2
+        //Задача 2
         System.out.println("Задача 2");
         double sumWithPercent1 = 0;
         i = 1;
@@ -20,7 +20,7 @@ public class Main {
                 System.out.println("Месяц " + i + ", сумма накоплений равна " + sumWithPercent1 + " рублей");
             }
         }
-        // Задача 3
+        //Задача 3
         System.out.println("Задача 3");
         double sum = 0;
         i = 1;
@@ -30,7 +30,7 @@ public class Main {
                 System.out.println("Месяц " + i + ", сумма накоплений равна " + sum + " рублей");
             }
         }
-        // Задача 4
+        //Задача 4
         System.out.println("Задача 4");
         int friday = 1;
         while(friday < 31) {
