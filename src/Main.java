@@ -32,12 +32,9 @@ public class Main {
         }
         // Задача 4
         System.out.println("Задача 4");
-        int friday = 1;
-        while(friday < 31) {
-            friday = friday + 7;
-            if (friday <= 31) {
-                System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
-            }
+        int firstFriday = 1;
+        for (int currentFriday = firstFriday; currentFriday <= 31; currentFriday += 7) {
+            System.out.println("Сегодня пятница, " + currentFriday + "-ое число. " + "Необходимо подготовить отчет.");
         }
     }
 }
